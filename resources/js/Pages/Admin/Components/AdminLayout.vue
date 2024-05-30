@@ -1,10 +1,8 @@
 <template>
-    <div>
-        <div class="antialiased bg-gray-50 dark:bg-gray-900">
-            <Navbar />
-            <Sidebar />
-            <slot />
-        </div>
+    <div class="antialiased bg-gray-50 dark:bg-gray-900">
+        <Navbar />
+        <Sidebar />
+        <slot />
     </div>
 </template>
 <script setup>
